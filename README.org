@@ -11,8 +11,6 @@ linux-command1 | linux-comand2 ... | jx `verb`
 
 The `verb` first argument above is any J command that should be executed on the piped data (~stdin~ in J parlance). Typical use-cases are provided in the [[Examples]] section.
 
-* About
-
 ** Features
 
 The following packages are automatically preloaded each time ~jx~ is called,
