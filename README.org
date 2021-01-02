@@ -3,11 +3,7 @@
 #+AUTHOR: Prashanth Kumar
 #+DATE: December 31, 2020
 
-* About
-
-** What
-
-~*JX*~ is a tiny utility script to eXecute [[https://www.jsoftware.com/#/][J]] commands on the output from *nix command-line pipes. The syntax is,
+*JX* is a tiny utility script to eXecute [[https://www.jsoftware.com/#/][J]] commands on the output from *nix command-line pipes. The syntax is,
 
 #+BEGIN_SRC shell
 linux-command1 | linux-comand2 ... | jx `verb`
@@ -15,11 +11,7 @@ linux-command1 | linux-comand2 ... | jx `verb`
 
 The `verb` first argument above is any J command that should be executed on the piped data (~stdin~ in J parlance). Typical use-cases are provided in the [[Examples]] section.
 
-** Requirements
-
-J needs to be [[https://code.jsoftware.com/wiki/System/Installation][installed]] and available on the system. ~ijconsole~ is used in ~jx~ and is assumed to be in ~/usr/bin/ijconsole~. Replace the path in the script if this is not the case on your system.
-
-This script has only been tested on WSL with Ubuntu 18.04.1 LTS (bionic).
+* About
 
 ** Features
 
@@ -31,6 +23,12 @@ The following packages are automatically preloaded each time ~jx~ is called,
 More libraries can easily be added to the beginning of the script. Check the [[https://code.jsoftware.com/wiki/Vocabulary/Libraries][addons]] page for further information.
 
 Currently ~jx~ can only deal with numeric data types. Use it on other types at your own risk!
+
+** Requirements
+
+J needs to be [[https://code.jsoftware.com/wiki/System/Installation][installed]] and available on the system. ~ijconsole~ is used in ~jx~ and is assumed to be in ~/usr/bin/ijconsole~. Replace the path in the script if this is not the case on your system.
+
+This script has only been tested on WSL with Ubuntu 18.04.1 LTS (bionic).
 
 ** Why?
 
