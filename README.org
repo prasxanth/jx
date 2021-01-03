@@ -39,7 +39,7 @@ The page on [[https://code.jsoftware.com/wiki/Guides/J_Shell_Script][shell scrip
 
 Download the file called =jx= and give it exec permissions (~chmod +x~).
 
-Alternatively, open this org file (=README.org=) in Emacs, tangle to get the =jx= file and give it exec permissions.
+Alternatively, open the [[file:package.org][package.org]] file in Emacs, tangle to get the =jx= file and give it exec permissions.
 
 
 * Examples
