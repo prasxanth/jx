@@ -9,7 +9,7 @@
 linux-command1 | linux-comand2 ... | jx `verb`
 #+END_SRC
 
-The `verb` first argument above is any J command that should be executed on the piped data (~stdin~ in J parlance). Typical use-cases are provided in the [[Examples]] section.
+The `verb` first argument above is any J command that should be executed on the piped data (~stdin~ in J parlance). Typical use-cases are provided in the [[https://github.com/prasxanth/jx/blob/main/README.org#examples][Examples]] section.
 
 ** Features
 
