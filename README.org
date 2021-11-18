@@ -186,8 +186,6 @@ _5.89409j6.59066,0.728365j_1.2031,_7.02916j14.2964,_3.42976j8.93904
 
 * Contributions
 
-This is a tiny useful tool that should nicely supplement other solutions available today. Of course, there are many venues for expanding this. Feel free to fork this repo and continue development!
+This is a tiny useful tool that should nicely supplement other solutions available today. Of course, there are many venues for expanding this. Please fork this repo and continue development!
 
 This code is released under [[https://www.gnu.org/licenses/gpl-3.0.en.html][GPLv3]].
-
-If you find this useful, please drop me a note at prasxanth.kumar@gmail.com.
